@@ -1,8 +1,8 @@
 {
     "text": {
       "intro": {
-        "es": "¡Hola!\nSoy José María y es un placer darte la bienvenida a mi página personal. Más abajo tienes un poco de lo que puedo hacer y algunas cosas que sé. Me gusta el diseño sencillo y limpio.\nSi te agrada lo que ves y quieres comunicarte conmigo, puedes echar un vistazo a las opciones de contacto que he dejado al final de la página. ¡Un saludo!",
-        "en": "Greetings!\nI'm José María, and I'm thrilled to welcome you to my personal portfolio. Below, you'll discover a glimpse of my skills and expertise. I have a passion for sleek and minimalist design.\nIf you find my work appealing and wish to get in touch, feel free to explore the contact options provided at the bottom of the page. Best regards!"
+        "es": "¡Hola!\nSoy José María y es un placer darte la bienvenida a mi página personal. Más abajo tienes un poco de lo que puedo hacer y algunas cosas que sé. Me gusta el diseño sencillo y limpio.\nSi te agrada lo que ves y quieres comunicarte conmigo, puedes echar un vistazo a las opciones de contacto disponibles. ¡Un saludo!",
+        "en": "Greetings!\nI'm José María, and I'm thrilled to welcome you to my personal portfolio. Below, you'll discover a glimpse of my skills and expertise. I have a passion for sleek and minimalist design.\nIf you find my work appealing and wish to get in touch, feel free to explore the available contact options. Best regards!"
       },
       "sections": {
         "es": ["inicio", "proyectos", "aptitudes"],
