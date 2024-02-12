@@ -768,6 +768,7 @@
 
   @keyframes skill-highlight {
     100% {
+      color: #eef;
       font-size: min(14vw, 150px);
     }
   }
