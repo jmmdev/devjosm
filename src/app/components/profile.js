@@ -18,13 +18,13 @@ export default function Profile({text}){
     return (
         <>
             <div className={styles.contact}>
-                <a className={styles['contact-button']}>
+                <a href='https://www.linkedin.com/in/jos%C3%A9-mar%C3%ADa-mart%C3%ADn-mu%C3%B1oz-95a464195' target='_blank' className={styles['contact-button']}>
                     <BiLogoLinkedin />
                 </a>
-                <a className={styles['contact-button']}>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=devjosm@gmail.com" target="_blank" className={styles['contact-button']}>
                     <BiLogoGmail />
                 </a>
-                <a className={styles['contact-button']}>
+                <a href='https://github.com/jmmdev' target='_blank' className={styles['contact-button']}>
                     <BiLogoGithub />
                 </a>
             </div>
