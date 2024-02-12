@@ -5,11 +5,12 @@ import { useEffect, useRef } from 'react'
 
 export default function Profile({text}){
     const mailAction = useRef(null)
+    const isMobile = useRef(null)
 
     useEffect(() => {
-        const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+        isMobile.current = 'ontouchstart' in window || navigator.maxTouchPoints > 0
 
-        mailAction.current = isMobile ? "mailto:devjosm@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=devjosm@gmail.com"
+        mailAction.current = isMobile.current ? "mailto:devjosm@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=devjosm@gmail.com"
     })
     
     const GetText = () => {
@@ -29,7 +30,7 @@ export default function Profile({text}){
                 <a href='https://www.linkedin.com/in/jos%C3%A9-mar%C3%ADa-mart%C3%ADn-mu%C3%B1oz-95a464195' target='_blank' className={styles['contact-button']}>
                     <BiLogoLinkedin />
                 </a>
-                <a href={mailAction.current} target="_blank" className={styles['contact-button']}>
+                <a href={mailAction.current} target={isMobile.current ? '' : '_blank'} className={styles['contact-button']}>
                     <BiLogoGmail />
                 </a>
                 <a href='https://github.com/jmmdev' target='_blank' className={styles['contact-button']}>
@@ -38,10 +39,10 @@ export default function Profile({text}){
             </div>
             <div className={styles.profile}>
                 <div className={styles['contact-inner']}>
-                    <a href='https://www.linkedin.com/in/jos%C3%A9-mar%C3%ADa-mart%C3%ADn-mu%C3%B1oz-95a464195' target='_blank' className={styles['contact-button']}>
+                    <a href='https://www.linkedin.com/in/jos%C3%A9-mar%C3%ADa-mart%C3%ADn-mu%C3%B1oz-95a464195' target={isMobile.current ? '' : '_blank'} className={styles['contact-button']}>
                         <BiLogoLinkedin />
                     </a>
-                    <a href={mailAction.current} target="_blank" className={styles['contact-button']}>
+                    <a href={mailAction.current} target='_blank' className={styles['contact-button']}>
                         <BiLogoGmail />
                     </a>
                     <a href='https://github.com/jmmdev' target='_blank' className={styles['contact-button']}>
