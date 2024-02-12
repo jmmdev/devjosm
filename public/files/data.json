@@ -1,0 +1,135 @@
+{
+    "text": {
+      "intro": {
+        "es": "¡Hola!\nSoy José María y es un placer darte la bienvenida a mi página personal. Más abajo tienes un poco de lo que puedo hacer y algunas cosas que sé. Me gusta el diseño sencillo y limpio.\nSi te agrada lo que ves y quieres comunicarte conmigo, puedes echar un vistazo a las opciones de contacto que he dejado al final de la página. ¡Un saludo!",
+        "en": "Greetings!\nI'm José María, and I'm thrilled to welcome you to my personal portfolio. Below, you'll discover a glimpse of my skills and expertise. I have a passion for sleek and minimalist design.\nIf you find my work appealing and wish to get in touch, feel free to explore the contact options provided at the bottom of the page. Best regards!"
+      },
+      "sections": {
+        "es": ["inicio", "proyectos", "aptitudes"],
+        "en": ["home", "projects", "skills"]
+      }
+    },
+    "pages": [
+      {
+        "url": "https://my-react-weather.vercel.app",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react"
+        ],
+        "desc": {
+          "es": "Aplicación sencilla que utiliza la API del tiempo de openweathermap.org",
+          "en": "Simple application using openweathermap.org weather API"
+        }
+      },
+      {
+        "url": "https://react-qr-creator.vercel.app",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react"
+        ],
+        "desc": {
+          "es": "Generador de códigos QR con algunas opciones de personalización",
+          "en": "QR generator with some customization options"
+        }
+      },
+      {
+        "url": "https://github.com/jmmdev/stream-scoreboard",
+        "tags": [
+          "c-sharp",
+          "graphql",
+          "windows"
+        ],
+        "desc": {
+          "es": "Aplicación de escritorio que gestiona archivos de texto de OBS enfocada a juegos de lucha",
+          "en": "Desktop application that manages OBS text files focused on fighting videogames"
+        }
+      },
+      {
+        "url": "https://react-stage-striking.vercel.app/",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react"
+        ],
+        "desc": {
+          "es": "Herramienta de selección de escenarios para Super Smash Bros Ultimate",
+          "en": "Stage striking tool for Super Smash Bros Ultimate players"
+        }
+      },
+      {
+        "url": "https://github.com/jmmdev/ygo-tools",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react",
+          "android"
+        ],
+        "desc": {
+          "es": "App multiusos diseñada para todo tipo de jugadores y coleccionistas de Yu-Gi-Oh!",
+          "en": "App with different tools designed for all kinds of Yu-Gi-Oh! players and collectors"
+        }
+      },
+      {
+        "url": "https://github.com/Asancu/smash-malaga-bot/tree/devjosmVersion",
+        "tags": [
+          "typescript"
+        ],
+        "desc": {
+          "es": "Bot de Telegram creado para gestionar quedadas gaming presenciales",
+          "en": "Telegram bot created for local gaming meet-ups management"
+        }
+      }
+    ],
+    "skills": [
+      {
+        "icon": "react",
+        "text": "React + React Native"
+      },
+      {
+        "icon": "html",
+        "text": "HTML"
+      },
+      {
+        "icon": "css",
+        "text": "CSS"
+      },
+      {
+        "icon": "javascript",
+        "text": "JavaScript"
+      },
+      {
+        "icon": "typescript",
+        "text": "TypeScript"
+      },
+      {
+        "icon": "c-sharp",
+        "text": "C#"
+      },
+      {
+        "icon": "java",
+        "text": "Java"
+      },
+      {
+        "icon": "springboot",
+        "text": "Spring Boot"
+      },
+      {
+        "icon": "graphql",
+        "text": "GraphQL"
+      },
+      {
+        "icon": "angular",
+        "text": "Angular"
+      },
+      {
+        "icon": "git",
+        "text": "Git"
+      }
+    ]
+  }
