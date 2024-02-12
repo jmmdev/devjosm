@@ -40,7 +40,7 @@ export default function Skills({skills}) {
         const mySkills = []
         for (let s of skills) {
             mySkills.push(
-                <div className={styles.skill}>
+                <div key={s.text} className={styles.skill}>
                     <div className={styles['skill-icon']}>
                         {getIcon(s.icon)}
                     </div>
