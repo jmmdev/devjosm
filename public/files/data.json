@@ -76,6 +76,20 @@
         }
       },
       {
+        "url": "https://github.com/jmmdev/tournament-manager",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react",
+          "android"
+        ],
+        "desc": {
+          "es": "Gestor de torneos de start.gg (alpha)",
+          "en": "start.gg tournament manager (alpha)"
+        }
+      },
+      {
         "url": "https://github.com/Asancu/smash-malaga-bot/tree/devjosmVersion",
         "tags": [
           "typescript"
