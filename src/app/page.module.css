@@ -216,6 +216,7 @@
   aspect-ratio: 16/9;
   position: relative;
   user-select: none;
+  box-shadow: 0 0 5px 2px #0006;
 }
 
 .thumbnail:hover {
