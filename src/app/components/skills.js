@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import styles from "../page.module.css";
-import {BiLogoAngular, BiLogoCss3, BiLogoGit, BiLogoGraphql, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoReact, BiLogoSpringBoot, BiLogoTypescript} from 'react-icons/bi';
-import {TbBrandCSharp, TbError404} from 'react-icons/tb'
+import {BiLogoAngular, BiLogoCss3, BiLogoGit, BiLogoGraphql, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoMongodb, BiLogoNodejs, BiLogoReact, BiLogoSpringBoot, BiLogoTypescript} from 'react-icons/bi';
+import {TbBrandCSharp, TbError404} from 'react-icons/tb';
+import {SiExpress} from 'react-icons/si';
 
 export default function Skills({skills}) {
 
@@ -14,6 +15,8 @@ export default function Skills({skills}) {
                 return <TbBrandCSharp />
             case 'css':
                 return <BiLogoCss3 />
+            case 'express': 
+                return <SiExpress />
             case 'git':
                 return <BiLogoGit />
             case 'graphql':
@@ -24,6 +27,10 @@ export default function Skills({skills}) {
                 return <BiLogoJava />
             case 'javascript':
                 return <BiLogoJavascript />
+            case 'mongodb':
+                return <BiLogoMongodb />
+            case 'node':
+                return <BiLogoNodejs />
             case 'react':
                 return <BiLogoReact />
             case 'springboot':

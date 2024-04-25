@@ -98,6 +98,22 @@
           "es": "Bot de Telegram creado para gestionar quedadas gaming presenciales",
           "en": "Telegram bot created for local gaming meet-ups management"
         }
+      },
+      {
+         "url": "https://gamescript-frontend.vercel.app/",
+        "tags": [
+          "html",
+          "css",
+          "javascript",
+          "react",
+          "express",
+          "mongodb",
+          "node"
+        ],
+        "desc": {
+          "es": "Clon de Netflix que emula un sitio web para gaming en la nube (alojado en render)",
+          "en": "Netflix clone that emulates a cloud gaming website (hosted by render)"
+        }
       }
     ],
     "skills": [
@@ -116,6 +132,18 @@
       {
         "icon": "javascript",
         "text": "JavaScript"
+      },
+      {
+        "icon": "node",
+        "text": "Node.js"
+      },
+      {
+        "icon": "express",
+        "text": "Express"
+      },
+      {
+        "icon": "mongodb",
+        "text": "MongoDB"
       },
       {
         "icon": "typescript",
