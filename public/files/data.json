@@ -111,8 +111,8 @@
           "node"
         ],
         "desc": {
-          "es": "Clon de Netflix que emula un sitio web para gaming en la nube (alojado en render)",
-          "en": "Netflix clone that emulates a cloud gaming website (hosted by render)"
+          "es": "Clon de Netflix que emula un sitio web para gaming en la nube",
+          "en": "Netflix clone that emulates a cloud gaming website"
         }
       }
     ],
