@@ -121,8 +121,8 @@
           "javascript"
         ],
         "desc": {
-          "es": "Una versión serverless del bot de Telegram (Vercel)",
-          "en": "A serverless version of the Telegram bot (Vercel)"
+          "es": "Una versión serverless en javascript del bot de Telegram (Vercel)",
+          "en": "A javascript serverless version of the Telegram bot (Vercel)"
         }
       }
     ],
