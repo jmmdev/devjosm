@@ -100,7 +100,7 @@
         }
       },
       {
-         "url": "https://gamescript-frontend.vercel.app/",
+        "url": "https://gamescript-frontend.vercel.app/",
         "tags": [
           "html",
           "css",
@@ -113,6 +113,16 @@
         "desc": {
           "es": "Clon de Netflix que emula un sitio web para gaming en la nube",
           "en": "Netflix clone that emulates a cloud gaming website"
+        }
+      },
+      {
+        "url": "https://github.com/jmmdev/serverless-smash-malaga-bot",
+        "tags": [
+          "javascript"
+        ],
+        "desc": {
+          "es": "Una versión serverless del bot de Telegram (Vercel)",
+          "en": "A serverless version of the Telegram bot (Vercel)"
         }
       }
     ],
