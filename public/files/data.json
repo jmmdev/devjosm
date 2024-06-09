@@ -82,7 +82,8 @@
           "css",
           "javascript",
           "react",
-          "android"
+          "android",
+          "graphql"
         ],
         "desc": {
           "es": "Gestor de torneos de start.gg (alpha)",
