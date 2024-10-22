@@ -1,189 +1,159 @@
 {
     "text": {
+      "subtitle": {
+        "es": "Desarrollador Frontend",
+        "en": "Frontend Developer"
+      },
+      "shortText": {
+        "es": "Siempre dispuesto a dar soluciones simples incluso a los problemas más pequeños.",
+        "en": "Always up for solving even the smallest challenges with simple solutions."
+      },
       "intro": {
-        "es": "¡Hola!\nSoy José María y es un placer darte la bienvenida a mi página personal. Más abajo tienes un poco de lo que puedo hacer y algunas cosas que sé. Me gusta el diseño sencillo y limpio.\nSi te agrada lo que ves y quieres comunicarte conmigo, puedes echar un vistazo a las opciones de contacto disponibles. ¡Un saludo!",
-        "en": "Greetings!\nI'm José María, and I'm thrilled to welcome you to my personal portfolio. Below, you'll discover a glimpse of my skills and expertise. I have a passion for sleek and minimalist design.\nIf you find my work appealing and wish to get in touch, feel free to explore the available contact options. Best regards!"
+        "es": "Empecé mis estudios en Ingeniería de software sin saber muy bien qué hacer con mi vida y acabé descubriendo que me encanta programar. Esto no ha cambiado a pesar de no haberlo podido desarrollar como mi carrera profesional, al contrario, me gusta seguir desarrollando proyectos que me parezcan divertidos e interesantes por el mero hecho de practicar y aprender más.\nMe centro en diseños simples, directos e intuitivos, con un funcionamiento lo más eficiente y lo mejor estructurado posible. Puedo llegar a obsesionarme de más con el resultado final y eso provoca ciertos desajustes en los desarrollos, pero es algo de lo que soy consciente y en lo que trabajo.\nCuando no estoy programando, me gusta sobre todo jugar a videojuegos y los juegos de cartas, ámbitos a los que he dedicado algún que otro proyecto.",
+        "en": "I started my studies in Software Engineering without really knowing what to do with my life, and I ended up discovering that I love programming. This hasn't changed, despite not being able to develop it as my professional career. On the contrary, I enjoy continuing to work on projects that seem fun and interesting to me, simply for the sake of practicing and learning more.\nI focus on simple, straightforward, and intuitive designs, aiming for the most efficient and well-structured functionality possible. I can sometimes become overly obsessed with the final result, which can cause some setbacks in development, but it's something I'm aware of and working on.\nWhen I'm not programming, I mostly enjoy playing video games and card games, areas to which I've dedicated a few projects here and there."
       },
       "sections": {
-        "es": ["inicio", "proyectos", "aptitudes"],
-        "en": ["home", "projects", "skills"]
-      }
-    },
-    "pages": [
-      {
-        "url": "https://my-react-weather.vercel.app",
-        "tags": [
-          "html",
-          "css",
-          "javascript",
-          "react"
-        ],
-        "desc": {
-          "es": "Aplicación sencilla que utiliza la API del tiempo de openweathermap.org",
-          "en": "Simple application using openweathermap.org weather API"
+        "about": {"es": "Sobre mí", "en": "About", "href": "#about"},
+        "projects": {"es": "Proyectos","en": "Projects", "href": "#projects"}
         }
       },
+    "projects": [
       {
-        "url": "https://react-qr-creator.vercel.app",
-        "tags": [
-          "html",
-          "css",
-          "javascript",
-          "react"
-        ],
-        "desc": {
-          "es": "Generador de códigos QR con algunas opciones de personalización",
-          "en": "QR generator with some customization options"
-        }
-      },
-      {
-        "url": "https://github.com/jmmdev/stream-scoreboard",
-        "tags": [
-          "c-sharp",
-          "graphql",
-          "windows"
-        ],
-        "desc": {
-          "es": "Aplicación de escritorio que gestiona archivos de texto de OBS enfocada a juegos de lucha",
-          "en": "Desktop application that manages OBS text files focused on fighting videogames"
-        }
-      },
-      {
-        "url": "https://react-stage-striking.vercel.app/",
-        "tags": [
-          "html",
-          "css",
-          "javascript",
-          "react"
-        ],
-        "desc": {
-          "es": "Herramienta de selección de escenarios para Super Smash Bros Ultimate",
-          "en": "Stage striking tool for Super Smash Bros Ultimate players"
-        }
-      },
-      {
-        "url": "https://github.com/jmmdev/ygo-tools",
-        "tags": [
-          "html",
-          "css",
-          "typescript",
-          "react",
-          "android"
-        ],
-        "desc": {
-          "es": "App multiusos diseñada para todo tipo de jugadores y coleccionistas de Yu-Gi-Oh!",
-          "en": "App with different tools designed for all kinds of Yu-Gi-Oh! players and collectors"
-        }
-      },
-      {
-        "url": "https://github.com/jmmdev/tournament-manager",
-        "tags": [
-          "html",
-          "css",
-          "javascript",
-          "react",
-          "android",
-          "graphql"
-        ],
-        "desc": {
-          "es": "Gestor de torneos de start.gg (alpha)",
-          "en": "start.gg tournament manager (alpha)"
-        }
-      },
-      {
-        "url": "https://github.com/Asancu/smash-malaga-bot/tree/devjosmVersion",
-        "tags": [
-          "typescript"
-        ],
-        "desc": {
-          "es": "Bot de Telegram creado para gestionar quedadas gaming presenciales",
-          "en": "Telegram bot created for local gaming meet-ups management"
-        }
-      },
-      {
+        "name": "GameScript",
         "url": "https://gamescript-frontend.vercel.app/",
+        "alt": "",
+        "ref": "gamescript",
         "tags": [
-          "html",
-          "css",
-          "javascript",
-          "react",
-          "express",
-          "mongodb",
-          "node"
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Express",
+          "MongoDB",
+          "Node"
         ],
-        "desc": {
-          "es": "Clon de Netflix que emula un sitio web para gaming en la nube",
-          "en": "Netflix clone that emulates a cloud gaming website"
+        "description": {
+          "es": "Clon de Netflix que emula un sitio web para gaming en la nube. Los tiempos de carga iniciales pueden variar, ya que el backend está alojado en Vercel.",
+          "en": "Netflix clone that emulates a cloud gaming website. Initial loading times may vary since the backend is hosted on Vercel."
         }
       },
       {
-        "url": "https://github.com/jmmdev/serverless-smash-malaga-bot",
+        "name": "YGO Tools",
+        "url": "https://github.com/jmmdev/ygo-tools",
+        "alt": "",
+        "ref": "ygo",
         "tags": [
-          "javascript"
+          "HTML",
+          "CSS",
+          "TypeScript",
+          "React Native"
         ],
-        "desc": {
-          "es": "Una versión serverless en javascript del bot de Telegram (Vercel)",
-          "en": "A javascript serverless version of the Telegram bot (Vercel)"
+        "description": {
+          "es": "App para Android con distintas herramientas diseñada para todo tipo de jugadores y coleccionistas del juego de cartas intercambiables Yu-Gi-Oh!",
+          "en": "Android App with different tools designed for all kinds of Yu-Gi-Oh! trading card game players and collectors."
+        }
+      },
+      {
+        "name": "My Weather App",
+        "url": "https://my-react-weather.vercel.app",
+        "alt": "",
+        "ref": "weather",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ],
+        "description": {
+          "es": "Aplicación sencilla que utiliza la API de openweathermap.org para mostrar tanto la información inmediata del tiempo como el pronóstico semanal por horas.",
+          "en": "Simple application that uses the openweathermap.org API to display both current weather information and the hourly weekly forecast."
+        }
+      },
+      {
+        "name": "React QR Creator",
+        "url": "https://react-qr-creator.vercel.app",
+        "alt": "",
+        "ref": "qr",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ],
+        "description": {
+          "es": "Generador de códigos QR con algunas opciones de personalización.",
+          "en": "QR generator with some customization options."
+        }
+      },
+      {
+        "name": "Stream Scoreboard",
+        "url": "https://github.com/jmmdev/stream-scoreboard",
+        "alt": "",
+        "ref": "scoreboard",
+        "tags": [
+          "C#",
+          "GraphQL"
+        ],
+        "description": {
+          "es": "Aplicación de escritorio que gestiona archivos de texto de OBS, enfocada a marcadores con información sobre jugadores, puntuaciones, rondas, etc.",
+          "en": "Desktop application that manages OBS text files focused on displays with information about players, scores, rounds, etc. "
+        }
+      },
+      {
+        "name": "React Stage Striking",
+        "url": "https://react-stage-striking.vercel.app/",
+        "alt": "",
+        "ref": "striking",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ],
+        "description": {
+          "es": "Herramienta de selección de escenarios para torneos competitivos de Super Smash Bros Ultimate. Perfecta para jugadores inexpertos o extranjeros.",
+          "en": "Stage striking tool for competitive Super Smash Bros Ultimate tournaments. Perfect for unexperienced or foreign players."
+        }
+      },
+      {
+        "name": "Tournament Manager",
+        "url": "https://github.com/jmmdev/tournament-manager",
+        "alt": "",
+        "ref": "manager",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React Native",
+          "GraphQL"
+        ],
+        "description": {
+          "es": "Gestor de start.gg para organizadores de torneos, con información de eventos, fases, llaves, partidas, etc. (alpha)",
+          "en": "start.gg manager for tournament organizers, with information about events, phases, brackets, games, etc. (alpha)"
+        }
+      },
+      {
+        "name": "Smash Málaga Bot",
+        "url": "https://github.com/jmmdev/serverless-smash-malaga-bot",
+        "alt": "",
+        "ref": "telegram-bot",
+        "tags": [
+          "JavaScript"
+        ],
+        "description": {
+          "es": "Una función serverless que utiliza la API de bots de Telegram para gestionar información sobre asistentes a quedadas presenciales para el grupo de Smash Bros Málaga.",
+          "en": "A serverless function that uses the Telegram Bot API to manage information about attendees for in-person meetups for the Smash Bros Málaga group."
         }
       }
     ],
-    "skills": [
-      {
-        "icon": "react",
-        "text": "React + React Native"
-      },
-      {
-        "icon": "html",
-        "text": "HTML"
-      },
-      {
-        "icon": "css",
-        "text": "CSS"
-      },
-      {
-        "icon": "javascript",
-        "text": "JavaScript"
-      },
-      {
-        "icon": "node",
-        "text": "Node.js"
-      },
-      {
-        "icon": "express",
-        "text": "Express"
-      },
-      {
-        "icon": "mongodb",
-        "text": "MongoDB"
-      },
-      {
-        "icon": "typescript",
-        "text": "TypeScript"
-      },
-      {
-        "icon": "c-sharp",
-        "text": "C#"
-      },
-      {
-        "icon": "java",
-        "text": "Java"
-      },
-      {
-        "icon": "springboot",
-        "text": "Spring Boot"
-      },
-      {
-        "icon": "graphql",
-        "text": "GraphQL"
-      },
-      {
-        "icon": "angular",
-        "text": "Angular"
-      },
-      {
-        "icon": "git",
-        "text": "Git"
-      }
-    ]
+    "footer": {
+        "es": "*token* utilizada como base, hecho con *token*, *token* y *token*, desplegado con *token* a través del *token*. Fuente utilizada: *token*.",
+        "en": "*token* used as base, built with *token*, *token* and *token*, deployed with *token* via its *token*. All text is set in the *token* typeface."
+    },
+    "tokens": {
+      "es": "Web de Brittany Chiang, React, Next.js, Tailwind CSS, Vercel, repositorio de GitHub, Outfit",
+      "en": "Brittany Chiang's website, React, Next.js, Tailwind CSS, Vercel, GitHub repository, Outfit"
+    },
+    "links": "https://brittanychiang.com/, https://es.react.dev/, https://nextjs.org/, https://tailwindcss.com/, https://vercel.com/jmmdevs-projects/devjosm, https://github.com/jmmdev/devjosm, https://fonts.google.com/specimen/Outfit"
   }
   

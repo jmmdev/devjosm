@@ -1,71 +1,33 @@
 "use client"
-import { useEffect, useRef, useState } from "react";
-import styles from "./page.module.css";
-import Toolbar from "./components/toolbar";
-import Block from "./components/block";
-import Gallery from "./components/gallery";
-import Profile from "./components/profile";
-import Skills from "./components/skills";
+import { useState } from "react";
+import Header from "./components/header";
+import About from "./components/about";
+import Projects from "./components/projects";
+import Toggle from "./components/toggle";
 
-export const getData = async () => {
-  const res = await fetch('files/data.json')
-  const data = await res.json() 
+import { Outfit } from 'next/font/google';
+const font = Outfit({subsets: ['latin'], variable: '--my-font'})
 
-  return data
-}
+import data from '../../public/files/data.json';
 
 export default function Home() {
-    const homeRef = useRef(null)
-    const workRef = useRef(null)
-    const skillsRef = useRef(null)
-
-    const [data, setData] = useState(null)
-    const [language, setLanguage] = useState('es')
-
-    useEffect(() => {
-      const initialize = async () => {
-        const site_data = await getData()
-        setData(site_data)
-      }
-      initialize()
-    }, [])
-
-    const goToSection = section => {
-        const ref = getRefBySection(section)
-        ref.current.scrollIntoView({behavior: 'smooth'})
-    }
-
-    const getRefBySection = section => {
-        const sectionIndex = data.text.sections[language].indexOf(section)
-        switch (sectionIndex) {
-            case 1:
-                return workRef
-            case 2:
-                return skillsRef
-            default:
-                return homeRef
-        }
-    }
   
-    if (data) {
-      return (
-        <main className={styles.main}>
-          <Toolbar sections={data.text.sections} goToSection={goToSection} language={language} setLanguage={setLanguage} />
-          <div className={styles['block-container']}>
-            <Block reference={homeRef} content={
-              <Profile text={data.text.intro[language]} />
-            } />
-            <Block reference={workRef} title={language === 'es' ? 'Proyectos' : 'Projects'}
-            content={
-              <Gallery pages={data.pages} language={language}/>
-            } />
-            <Block reference={skillsRef} title={language === 'es' ? 'Aptitudes' : 'Skills'} content={
-              <Skills skills={data.skills} />
-            } />
+  const [language, setLanguage] = useState('es');
+
+  return (
+    <div id="__next">
+      <div className={`${font.variable} font-sans relative`}>
+        <Toggle language={language} setLanguage={setLanguage} />
+        <div className="mx-auto min-h-screen max-w-screen-xl px-6 pt-16 md:px-12 md:py-20 lg:px-24 lg:py-0">
+          <div className="lg:flex lg:justify-between lg:gap-4">
+            <Header subtitle={data.text.subtitle[language]} shortText={data.text.shortText[language]} sections={data.text.sections} language={language} />
+            <main id="content" className="pt-24 lg:w-2/3 xl:w-4/5">
+              <About title={data.text.sections.about[language]} text={data.text.intro[language]}/>
+              <Projects title={data.text.sections.projects[language]} projects={data.projects} language={language} footer={data.footer} tokens={data.tokens} links={data.links}/>
+            </main>
           </div>
-          <Toolbar sections={data.text.sections} isIcons={true} goToSection={goToSection} language={language} setLanguage={setLanguage} />
-        </main>
-      );
-    }
-    return null
+        </div>
+      </div>
+    </div>
+  );
 }
