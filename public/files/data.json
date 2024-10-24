@@ -54,13 +54,13 @@
         }
       },
       {
-        "name": "My Weather App",
+        "name": "My React Weather",
         "url": "https://my-react-weather.vercel.app",
         "alt": "",
         "ref": "weather",
         "tags": [
           "HTML",
-          "CSS",
+          "Tailwind CSS",
           "JavaScript",
           "React"
         ],
@@ -76,7 +76,7 @@
         "ref": "qr",
         "tags": [
           "HTML",
-          "CSS",
+          "Tailwind CSS",
           "JavaScript",
           "React"
         ],
