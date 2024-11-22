@@ -19,6 +19,23 @@
       },
     "projects": [
       {
+        "name": "reported",
+        "url": "https://reported.vercel.app/",
+        "alt": "",
+        "ref": "reported",
+        "tags": [
+          "HTML",
+          "Tailwind CSS",
+          "JavaScript",
+          "React",
+          "GraphQL"
+        ],
+        "description": {
+          "es": "Gestor de start.gg para organizadores de torneos, con información de eventos, fases, llaves y partidas",
+          "en": "start.gg manager for tournament organizers with information about events, phases, brackets and games"
+        }
+      },
+      {
         "name": "GameScript",
         "url": "https://gamescript-frontend.vercel.app/",
         "alt": "",
@@ -113,23 +130,6 @@
         "description": {
           "es": "Herramienta de selección de escenarios para torneos competitivos de Super Smash Bros Ultimate. Perfecta para jugadores inexpertos o extranjeros.",
           "en": "Stage striking tool for competitive Super Smash Bros Ultimate tournaments. Perfect for unexperienced or foreign players."
-        }
-      },
-      {
-        "name": "Tournament Manager",
-        "url": "https://github.com/jmmdev/tournament-manager",
-        "alt": "",
-        "ref": "manager",
-        "tags": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React Native",
-          "GraphQL"
-        ],
-        "description": {
-          "es": "Gestor de start.gg para organizadores de torneos, con información de eventos, fases, llaves, partidas, etc. (alpha)",
-          "en": "start.gg manager for tournament organizers, with information about events, phases, brackets, games, etc. (alpha)"
         }
       },
       {
