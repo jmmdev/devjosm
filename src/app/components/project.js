@@ -14,6 +14,21 @@ export default function Project({project, language}) {
         return tags; 
     }
 
+    const GetDescriptionParagraphs = ({description}) => {
+        const tokens = description.split('\n');
+        const paragraphs = [];
+        
+        for (let t of tokens) {
+            paragraphs.push(
+                <p className="mt-2 leading-normal">
+                    {t}
+                </p>
+            )
+        }
+
+        return paragraphs;
+    }
+
     return (
         <li className="mb-12">
             <a className="lg:bg-transparent rounded-lg lg:rounded-none group relative grid gap-6 transition-all sm:grid-cols-8 sm:gap-8 md:gap-6 lg:hover:!opacity-100 lg:group-hover/list:opacity-50" href={project.url} target="_blank" rel="noreferrer noopener" aria-label={`${project.alt} (opens in a new tab)`}>
@@ -32,7 +47,7 @@ export default function Project({project, language}) {
                             </span>
                         </div>
                     </h3>
-                    <p className="mt-2 leading-normal">{project.description[language]}</p>
+                    <GetDescriptionParagraphs description={project.description[language]} />
 
                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
                         <GetTags />
