@@ -26,7 +26,11 @@ export default function Project({project, language}) {
             )
         }
 
-        return paragraphs;
+        return (
+            <div className="flex flex-col gap-3">
+                {paragraphs}
+            </div>
+        );
     }
 
     return (

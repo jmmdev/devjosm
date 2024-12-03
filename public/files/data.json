@@ -50,8 +50,8 @@
           "Node"
         ],
         "description": {
-          "es": "Clon de Netflix que emula un sitio web para gaming en la nube. Los tiempos de carga iniciales pueden variar, ya que el backend está alojado en Vercel.<br /><br />ACTUALIZACIÓN EN PROGRESO",
-          "en": "Netflix clone that emulates a cloud gaming website. Initial loading times may vary since the backend is hosted on Vercel.<br /><br />UPDATE IN PROGRESS"
+          "es": "Clon de Netflix que emula un sitio web para gaming en la nube. Los tiempos de carga iniciales pueden variar, ya que el backend está alojado en Vercel.\nACTUALIZACIÓN EN PROGRESO",
+          "en": "Netflix clone that emulates a cloud gaming website. Initial loading times may vary since the backend is hosted on Vercel.\nUPDATE IN PROGRESS"
         }
       },
       {
