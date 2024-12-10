@@ -31,8 +31,8 @@
           "GraphQL"
         ],
         "description": {
-          "es": "Gestor de start.gg para organizadores de torneos, con información de eventos, fases, llaves y partidas",
-          "en": "start.gg manager for tournament organizers with information about events, phases, brackets and games"
+          "es": "Gestor de start.gg para organizadores de torneos, con información de eventos, fases, llaves y partidas.",
+          "en": "start.gg manager for tournament organizers with information about events, phases, brackets and games."
         }
       },
       {
@@ -42,16 +42,15 @@
         "ref": "gamescript",
         "tags": [
           "HTML",
-          "CSS",
+          "Tailwind CSS",
           "JavaScript",
           "React",
           "Express",
-          "MongoDB",
-          "Node"
+          "MongoDB"
         ],
         "description": {
-          "es": "Clon de Netflix que emula un sitio web para gaming en la nube. Los tiempos de carga iniciales pueden variar, ya que el backend está alojado en Vercel.\nACTUALIZACIÓN EN PROGRESO",
-          "en": "Netflix clone that emulates a cloud gaming website. Initial loading times may vary since the backend is hosted on Vercel.\nUPDATE IN PROGRESS"
+          "es": "Clon de Netflix que emula un sitio web para gaming en la nube. Los tiempos de carga iniciales pueden variar, ya que el backend está alojado en Vercel.",
+          "en": "Netflix clone that emulates a cloud gaming website. Initial loading times may vary since the backend is hosted on Vercel."
         }
       },
       {
