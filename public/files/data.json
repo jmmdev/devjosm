@@ -21,7 +21,7 @@
       {
         "name": "reported",
         "url": "https://reported.vercel.app/",
-        "alt": "",
+        "alt": "reported",
         "ref": "reported",
         "tags": [
           "HTML",
@@ -38,7 +38,7 @@
       {
         "name": "GameScript",
         "url": "https://gamescript-frontend.vercel.app/",
-        "alt": "",
+        "alt": "gamescript",
         "ref": "gamescript",
         "tags": [
           "HTML",
@@ -56,7 +56,7 @@
       {
         "name": "YGO Tools",
         "url": "https://github.com/jmmdev/ygo-tools",
-        "alt": "",
+        "alt": "ygo-tools",
         "ref": "ygo",
         "tags": [
           "HTML",
@@ -72,7 +72,7 @@
       {
         "name": "My React Weather",
         "url": "https://my-react-weather.vercel.app",
-        "alt": "",
+        "alt": "my-react-weather",
         "ref": "weather",
         "tags": [
           "HTML",
@@ -88,7 +88,7 @@
       {
         "name": "React QR Creator",
         "url": "https://react-qr-creator.vercel.app",
-        "alt": "",
+        "alt": "react-qr-creator",
         "ref": "qr",
         "tags": [
           "HTML",
@@ -104,7 +104,7 @@
       {
         "name": "Stream Scoreboard",
         "url": "https://github.com/jmmdev/stream-scoreboard",
-        "alt": "",
+        "alt": "stream-scoreboard",
         "ref": "scoreboard",
         "tags": [
           "C#",
@@ -116,9 +116,25 @@
         }
       },
       {
+        "name": "SB16",
+        "url": "https://sb16.vercel.app/",
+        "alt": "sb16",
+        "ref": "sb16",
+        "tags": [
+          "HTML",
+          "Tailwind CSS",
+          "JavaScript",
+          "React"
+        ],
+        "description": {
+          "es": "Creador de top 8 y top 16 para juegos de la saga Super Smash Bros.",
+          "en": "Top 8 and top 16 creator for Super Smash Bros. games"
+        }
+      },
+      {
         "name": "React Stage Striking",
         "url": "https://react-stage-striking.vercel.app/",
-        "alt": "",
+        "alt": "react-stage-striking",
         "ref": "striking",
         "tags": [
           "HTML",
@@ -134,7 +150,7 @@
       {
         "name": "Smash Málaga Bot",
         "url": "https://github.com/jmmdev/serverless-smash-malaga-bot",
-        "alt": "",
+        "alt": "smash-malaga-bot",
         "ref": "telegram-bot",
         "tags": [
           "JavaScript"

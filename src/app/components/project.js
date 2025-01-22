@@ -57,7 +57,7 @@ export default function Project({project, language}) {
                         <GetTags />
                     </ul>
                 </div>
-                <Image alt={project.alt} loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-zinc-200/20 transition group-hover:border-zinc-200/50 sm:order-1 sm:col-span-2 sm:translate-y-1" src={`/assets/images/${project.ref}.png`} style={{color: "transparent"}} />
+                <Image alt={`${project.alt}.webp`} loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-zinc-200/20 transition group-hover:border-zinc-200/50 sm:order-1 sm:col-span-2 sm:translate-y-1" src={`/assets/images/${project.ref}.webp`} style={{color: "transparent"}} />
             </a>
         </li>
     )
