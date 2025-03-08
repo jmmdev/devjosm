@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     const savedLg = localStorage.getItem("devjosm_lg");
     if (savedLg) {
-      setLanguage(lg);
+      setLanguage(savedLg);
     }
   }, [])
 
