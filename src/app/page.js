@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./components/header";
 import About from "./components/about";
 import Projects from "./components/projects";
@@ -14,10 +14,22 @@ export default function Home() {
   
   const [language, setLanguage] = useState('es');
 
+  useEffect(() => {
+    const savedLg = localStorage.getItem("devjosm_lg");
+    if (savedLg) {
+      switchLg(savedLg);
+    }
+  }, [])
+
+  function switchLg(lg) {
+    localStorage.setItem("devjosm_lg", lg);
+    setLanguage(lg);
+  }
+
   return (
     <div id="__next">
       <div className={`${font.variable} font-sans relative`}>
-        <Toggle language={language} setLanguage={setLanguage} />
+        <Toggle language={language} setLanguage={switchLg} />
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 pt-16 md:px-12 md:py-20 lg:px-24 lg:py-0">
           <div className="lg:flex lg:justify-between lg:gap-4">
             <Header subtitle={data.text.subtitle[language]} shortText={data.text.shortText[language]} sections={data.text.sections} language={language} />
